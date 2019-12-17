@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import avatar from "../../avatar.jpg";
-import NavBar from "./Navbar.jsx";
+import NavBar from "../layout/Navbar.jsx";
 
 const Card = styled.div`
   width: 100%;
@@ -87,7 +87,7 @@ const StackUL = styled.ul`
   }
 `;
 
-const UserCard = () => (
+const PersonCard = () => (
   <Wrapper>
     <NavBar></NavBar>
     <Card>
@@ -135,4 +135,4 @@ const UserCard = () => (
   </Wrapper>
 );
 
-export default UserCard;
+export default PersonCard;

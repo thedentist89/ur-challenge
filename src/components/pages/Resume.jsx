@@ -1,6 +1,6 @@
 import React from "react";
-import UserCard from "./UserCard.jsx";
-import Main from "./Main.jsx";
+import PersonCard from "../sections/PersonCard.jsx";
+import Main from "../sections/Main.jsx";
 import styled from "styled-components";
 
 const Container = styled.div`
@@ -12,7 +12,7 @@ const Container = styled.div`
 
 const Resume = () => (
   <Container>
-    <UserCard></UserCard>
+    <PersonCard></PersonCard>
     <Main></Main>
   </Container>
 );
