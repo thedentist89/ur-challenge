@@ -4,6 +4,7 @@ import styled from "styled-components";
 const MainHeading = styled.h1`
   font-size: 2.5rem;
   margin-right: 1.5rem;
+  font-weight: 500;
 `;
 
 const MainHeadingWrapper = styled.div`

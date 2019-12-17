@@ -12,6 +12,7 @@ const Card = styled.div`
   background-color: #fff;
   border-radius: 1rem;
   padding: 1rem;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
 
   &:not(:last-child) {
     margin-right: 0.5rem;
@@ -32,7 +33,9 @@ const CardLink = styled.a`
 const EvaluationCard = styled.div`
   background-color: #fff;
   border-radius: 1rem;
-  padding: 1.4rem;
+  padding-top: 1rem;
+  overflow: hidden;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
 `;
 
 const MiniHeading = styled.h5`
@@ -40,19 +43,18 @@ const MiniHeading = styled.h5`
   text-transform: uppercase;
   font-weight: 700;
   font-size: 1rem;
+  margin: 1rem;
 `;
 
 const EvaluationList = styled.ul`
   & li {
     list-style: none;
     padding: 1rem 0;
+    padding-left: 1rem;
+    cursor: pointer;
 
     &:not(:last-child) {
       border-bottom: 1px solid #eee;
-    }
-
-    &:last-child {
-      padding-bottom: 0;
     }
 
     &:first-child {
@@ -60,7 +62,7 @@ const EvaluationList = styled.ul`
     }
 
     &:hover {
-      background-color: rgba(2, 2, 2, 0.3);
+      background-color: rgba(200, 200, 200, 0.3);
     }
   }
 `;

@@ -7,6 +7,7 @@ const Container = styled.div`
   width: 100%;
   box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.1);
   margin-bottom: 4rem;
+  margin-top: 2rem;
 `;
 
 const WorkInfo = styled.div`

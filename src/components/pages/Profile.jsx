@@ -11,7 +11,7 @@ const Container = styled.div`
   justify-content: left;
 `;
 
-const Resume = () => (
+const Profile = () => (
   <Container>
     <PersonCard></PersonCard>
     <Main></Main>
@@ -19,4 +19,4 @@ const Resume = () => (
   </Container>
 );
 
-export default Resume;
+export default Profile;

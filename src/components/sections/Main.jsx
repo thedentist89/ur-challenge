@@ -3,6 +3,7 @@ import WorkExperience from "./WorkExperience.jsx";
 import SectionHeading from "../layout/SectionHeading.jsx";
 import styled from "styled-components";
 import CodingChallenge from "./CodingChallenge.jsx";
+import TeamFeedback from "./TeamFeedback.jsx";
 
 const Heading = styled.h1`
   text-transform: uppercase;
@@ -44,6 +45,8 @@ const Main = () => {
         quaerat sunt autem illum maxime repellendus optio
       </HeadingDescription>
       <CodingChallenge></CodingChallenge>
+      <SectionHeading title="Team Feedback"></SectionHeading>
+      <TeamFeedback></TeamFeedback>
     </Container>
   );
 };

@@ -1,9 +1,9 @@
 import React from "react";
 import "./style.scss";
-import Resume from "./components/pages/Resume.jsx";
+import Profile from "./components/pages/Profile.jsx";
 
 function App() {
-  return <Resume />;
+  return <Profile />;
 }
 
 export default App;
