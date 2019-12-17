@@ -3,7 +3,6 @@ import styled from "styled-components";
 
 const MainHeading = styled.h1`
   font-size: 2.5rem;
-  margin-bottom: 2rem;
   margin-right: 1.5rem;
 `;
 
@@ -11,6 +10,7 @@ const MainHeadingWrapper = styled.div`
   padding: 0.1rem;
   display: flex;
   justify-content: left;
+  margin-top: 3rem;
 `;
 
 const Dot = styled.div`
