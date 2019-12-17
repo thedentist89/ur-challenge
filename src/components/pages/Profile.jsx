@@ -5,7 +5,6 @@ import styled from "styled-components";
 import Navigation from "../layout/Navigation.jsx";
 
 const Container = styled.div`
-  border-top: 0.7rem solid #6050dc;
   display: flex;
   flex-direction: row;
   justify-content: left;
