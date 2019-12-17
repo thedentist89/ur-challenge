@@ -3,7 +3,7 @@ ur in office coding test
 
 To get started with the project you can clone it to your local machine by running this command: <br>
 
-`git clone https://github.com/mouradaouinat/ur-challenge-boiler-plate.git`<br>
+`git clone https://github.com/mouradaouinat/ur-challenge.git`<br>
 
 To get all the dependencies needed for this project navigate to the directory of the project and run:<br>
 
