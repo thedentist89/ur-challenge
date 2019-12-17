@@ -1,6 +1,5 @@
-import React from 'react';
-import styled from 'styled-components';
-
+import React from "react";
+import styled from "styled-components";
 
 const MainHeading = styled.h1`
   font-size: 2.5rem;
@@ -9,14 +8,14 @@ const MainHeading = styled.h1`
 `;
 
 const MainHeadingWrapper = styled.div`
-  padding: .1rem;
+  padding: 0.1rem;
   display: flex;
   justify-content: left;
 `;
 
 const Dot = styled.div`
-  height: .8rem;
-  width: .8rem;
+  height: 0.8rem;
+  width: 0.8rem;
   border-radius: 1rem;
   background-color: #6050dc;
   margin: 1.3rem 1rem;
@@ -29,12 +28,12 @@ const Line = styled.div`
   margin: 1.6rem 0;
 `;
 
-const SectionHeading = ({title}) => (
-    <MainHeadingWrapper>
-      <Dot></Dot>
-      <MainHeading>{title}</MainHeading>
-      <Line></Line>
-    </MainHeadingWrapper>
+const SectionHeading = ({ title }) => (
+  <MainHeadingWrapper>
+    <Dot></Dot>
+    <MainHeading>{title}</MainHeading>
+    <Line></Line>
+  </MainHeadingWrapper>
 );
 
 export default SectionHeading;

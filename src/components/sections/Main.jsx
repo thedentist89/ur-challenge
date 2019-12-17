@@ -1,6 +1,6 @@
 import React from "react";
 import WorkExperience from "./WorkExperience.jsx";
-import SectionHeading from '../layout/SectionHeading.jsx';
+import SectionHeading from "../layout/SectionHeading.jsx";
 import styled from "styled-components";
 
 const Heading = styled.h1`
@@ -17,6 +17,7 @@ const Container = styled.div`
   width: 40%;
   margin-top: 3rem;
   margin-left: 3rem;
+  margin-right: 4rem;
 `;
 
 const Main = () => {
